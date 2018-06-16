@@ -10,7 +10,7 @@ SWD pads.
 
 These are shipped with flash readback protection on (`UICR.RBPCONF.PALL`
 = `0x00`) which means directly reading out the flash isn't possible over
-SWD.  However, you can still otherwise SWD to control execution.
+SWD.  However, you can still otherwise control execution.
 
 See [Kris Brosch's blog post at Include Security](http://blog.includesecurity.com/2015/11/NordicSemi-ARM-SoC-Firmware-dumping-technique.html)
 which is the source of this technique.
