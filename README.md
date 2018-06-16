@@ -33,6 +33,7 @@ Files in this repo:
 *  `dump.rb` reads out all of flash using the gadget at 0x6de.  It's otherwise
    identical to the script from Include Security.  This takes about 30 minutes.
 *  `dump.bin` is the original flash on my ID115.
+*  `uicr.bin` is the original UICR area on my ID115.
 *  `openocd-stlink.cfg` is an openocd configuration file if you use an STLinkV2
    debugger.
 
