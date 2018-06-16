@@ -6,7 +6,9 @@ nRF51822-based ID115 fitness band.
 
 See [Raphael Baron's blog post](https://rbaron.net/blog/2018/05/27/Hacking-a-cheap-fitness-tracker-bracelet.html)
 which gives lots of hardware-level detail and shows how to get at the
-SWD pads.
+SWD pads.  This is what mine ended up looking like:
+
+![An ID115 connected to SWD](https://raw.githubusercontent.com/ctz/id115-firmware-dump/master/id115-swd.jpg)
 
 These are shipped with flash readback protection on (`UICR.RBPCONF.PALL`
 = `0x00`) which means directly reading out the flash isn't possible over
